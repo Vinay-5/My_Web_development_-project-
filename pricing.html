@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fictional Product Pricing</title>
+  <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+  <header>
+    <h1>Fictional Product Pricing</h1>
+    <button id="convertToInr">Convert USD to INR</button>
+    <button id="convertToUsd">Convert INR to USD</button>
+  </header>
+  <main>
+    <section class="pricing">
+      <div class="plan">
+        <h2>Basic</h2>
+        <div class="price" data-currency="USD">$10<span>/month</span></div>
+        <div class="converted-price" data-currency="INR"></div>
+        <ul>
+          <li>valid upto 4 month(feature 1)</li>
+          <li>24/7 customer support(feature 2)</li>
+          <li>1 user can access a time(feature 3)</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+      <div class="plan popular">
+        <h2>Pro</h2>
+        <div class="price" data-currency="USD">$20<span>/month</span></div>
+        <div class="converted-price" data-currency="INR"></div>
+        <ul>
+          <li>valid upto 8 month(Feature 1)</li>
+          <li>24/7 customer support(Feature 2)</li>
+          <li>3 user can access a time(Feature 3)</li>
+          <li>pre order avaliable(Feature 4)</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <div class="price" data-currency="USD">$30<span>/month</span></div>
+        <div class="converted-price" data-currency="INR"></div>
+        <ul>
+          <li>valid upto 12 month(Feature 1)</li>
+          <li>24/7 customer support(Feature 2)</li>
+          <li>5 user can access a time(Feature 3)</li>
+          <li>pre order avaliable(Feature 4)</li>
+          <li>quick query soving(Feature 4)</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+    </section>
+    
+  </main>
+  <footer>
+    <p>&copy; 2024 Fictional Product Pricing. All rights reserved.</p>
+  </footer>
+  <script src="pricing.js"></script>
+</body>
+</html>
